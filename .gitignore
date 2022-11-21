@@ -37,3 +37,6 @@
 
 # Ignore vscode settings
 /.vscode/settings.json
+
+# Ignore yml credentials
+config/credentials.yml.enc
