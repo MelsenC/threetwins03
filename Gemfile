@@ -65,6 +65,9 @@ group :development do
 
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
+
+  # Generate diagrams using Graphviz visualization library [https://voormedia.github.io/rails-erd/]
+  gem "rails-erd"
 end
 
 group :test do
