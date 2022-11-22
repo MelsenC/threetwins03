@@ -1,1 +1,9 @@
 <h1><%= @customer.code + ' - ' + @customer.name %></h1>
+
+<ul>
+  <li><%= link_to "Edit", edit_customer_path(@customer) %></li>
+  <li><%= link_to "Destroy", customer_path(@customer), data: {
+                    turbo_method: :delete,
+                    turbo_confirm: "Are you sure?"
+                  } %></li>
+</ul>
