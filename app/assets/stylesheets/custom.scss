@@ -1,0 +1,13 @@
+body {
+    color: $black;
+    font-family: Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: $primary-bg-dark;
+}
+
+input {
+    background-color: $primary-bg-light;
+}
