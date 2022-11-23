@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark no-print">
   <div class="container-fluid">
-    <a class="navbar-brand text-uppercase" href="index.html">Three Twins Productions, Inc</a>
+    <%= link_to "Three Twins Productions, Inc", root_path, class: "navbar-brand text-uppercase" %>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -8,22 +8,22 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ms-5 me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="index.html">Home</a>
+          <%= link_to "Home", home_path, class: "nav-link" %>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="services.html">Services</a>
+          <%= link_to "Services", services_path, class: "nav-link" %>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="gallery.html">Gallery</a>
+          <%= link_to "Gallery", gallery_path, class: "nav-link" %>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="sanmar-psst-program.html">SanMar PSST Program</a>
+          <%= link_to "SanMar PSST Program", psst_path, class: "nav-link" %>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href="manage-orders.html">Manage Orders</a>
+          <%= link_to "Manage Orders", manage_orders_path, class: "nav-link" %>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Log Out</a>
+          <%= link_to "Log Out", root_path, class: "nav-link" %>
         </li>
       </ul>
     </div>
