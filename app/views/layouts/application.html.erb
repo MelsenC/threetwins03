@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Three Twins Productions, Inc - Screen Printing and Embroidery</title>
+    <title><%= yield :subtitle %> - Three Twins Productions, Inc - Screen Printing and Embroidery</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="description"
           content="Three Twins Productions provides Screen Printing and Embroidery services in Watertown, MA." />
@@ -13,16 +13,10 @@
   </head>
 
   <body>
-    <%= render partial: "layouts/main_nav" %>
+    <%= render partial: "layouts/shared/main_nav" %>
 
-    <div class="container-lg">
-      <div class="row gy-3">
-        <div class="col">
-          <%= yield %>
-        </div>
-      </div>
-    </div>
+    <%= content_for?(:content) ? yield(:content) : yield %>
 
-    <%= render partial: "layouts/footer" %>
+    <%= render partial: "layouts/shared/footer" %>
   </body>
 </html>
