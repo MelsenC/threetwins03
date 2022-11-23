@@ -9,5 +9,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 input {
-    background-color: $primary-bg-light;
+    background-color: $input-bg-light;
+}
+
+.bg-light {
+    background-color: $primary-bg-light !important;
+}
+
+.bg-dark {
+    background-color: $primary-bg-dark !important;
 }

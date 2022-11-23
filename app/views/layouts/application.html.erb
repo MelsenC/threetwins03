@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Threetwins03</title>
+    <title>Three Twins Productions, Inc - Screen Printing and Embroidery</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description"
+          content="Three Twins Productions provides Screen Printing and Embroidery services in Watertown, MA." />
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -11,6 +13,23 @@
   </head>
 
   <body>
-    <%= yield %>
+    <%= render partial: "layouts/main_nav" %>
+    
+    <div class="container-lg mt-3">
+      <div class="row gy-3">
+        <div class="col">
+          <%= yield %>
+        </div>
+      </div>
+    </div>
+
+    <footer id="footer_3TP" class="bg-light no-print mt-5">
+        <div class="container py-5">
+            <div class="row">
+                <div style="height: 40px;"></div>
+                <span class="text-end">Copyright 2022 Three Twins Productions, Inc.</span>
+            </div>
+        </div>
+    </footer>
   </body>
 </html>
