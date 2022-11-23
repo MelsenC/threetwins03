@@ -14,8 +14,8 @@
 
   <body>
     <%= render partial: "layouts/main_nav" %>
-    
-    <div class="container-lg mt-3">
+
+    <div class="container-lg">
       <div class="row gy-3">
         <div class="col">
           <%= yield %>
@@ -23,13 +23,6 @@
       </div>
     </div>
 
-    <footer id="footer_3TP" class="bg-light no-print mt-5">
-        <div class="container py-5">
-            <div class="row">
-                <div style="height: 40px;"></div>
-                <span class="text-end">Copyright 2022 Three Twins Productions, Inc.</span>
-            </div>
-        </div>
-    </footer>
+    <%= render partial: "layouts/footer" %>
   </body>
 </html>
