@@ -7,105 +7,216 @@
                 <strong>GALLERY</strong>
             </h2>
             <div class="container" style="padding-top: 30px;">
-                <div class="row gy-4">
+                <div class="row gy-4" data-bs-toggle="modal" data-bs-target="#galleryModal">
                     <div class="col-xl-3 col-lg-4 col-md-6 col-xs-12 text-center">
-                        <img src="uploads/1/0/9/4/109494009/emb-stsebsfootball.jpg"
-                            class="img-fluid image-cover image-square img-thumbnail" data-bs-toggle="modal"
-                            data-bs-target="#static-modal"
-                            data-bs-src="uploads/1/0/9/4/109494009/emb-stsebsfootball_orig.jpg" alt="...">
+                        <%= image_tag "views/static_pages/gallery/emb-stsebsfootball.jpg", 
+                            class: "image-cover image-square-220 img-thumbnail",
+                            alt: "Embroidery Example: Saint Sebastian's Football",
+                            data: { 
+                                bs_target: '#galleryCarousel',
+                                bs_slide_to: '0'
+                            } %>
                     </div>
                     <div class="col-xl-3 col-lg-4 col-md-6 col-xs-12 text-center">
-                        <img src="uploads/1/0/9/4/109494009/emb-wellesleyraiders.jpg"
-                            class="img-fluid image-cover image-square img-thumbnail" data-bs-toggle="modal"
-                            data-bs-target="#static-modal"
-                            data-bs-src="uploads/1/0/9/4/109494009/emb-wellesleyraiders_orig.jpg" alt="...">
+                        <%= image_tag "views/static_pages/gallery/emb-wellesleyraiders.jpg", 
+                            class: "image-cover image-square-220 img-thumbnail",
+                            alt: "Embroidery Example: Wellesley Raiders",
+                            data: { 
+                                bs_target: '#galleryCarousel',
+                                bs_slide_to: '1'
+                            } %>
                     </div>
                     <div class="col-xl-3 col-lg-4 col-md-6 col-xs-12 text-center">
-                        <img src="uploads/1/0/9/4/109494009/ne-eagles-hockey.jpg"
-                            class="img-fluid image-cover image-square img-thumbnail" data-bs-toggle="modal"
-                            data-bs-target="#static-modal"
-                            data-bs-src="uploads/1/0/9/4/109494009/ne-eagles-hockey_orig.jpg" alt="...">
+                        <%= image_tag "views/static_pages/gallery/ne-eagles-hockey.jpg", 
+                            class: "image-cover image-square-220 img-thumbnail",
+                            alt: "Embroidery Example: New England Eagles Hockey Caps",
+                            data: { 
+                                bs_target: '#galleryCarousel',
+                                bs_slide_to: '2'
+                            } %>
                     </div>
                     <div class="col-xl-3 col-lg-4 col-md-6 col-xs-12 text-center">
-                        <img src="uploads/1/0/9/4/109494009/spike-out-als.jpg"
-                            class="img-fluid image-cover image-square img-thumbnail" data-bs-toggle="modal"
-                            data-bs-target="#static-modal"
-                            data-bs-src="uploads/1/0/9/4/109494009/spike-out-als_orig.jpg" alt="...">
+                        <%= image_tag "views/static_pages/gallery/spike-out-als.jpg", 
+                            class: "image-cover image-square-220 img-thumbnail",
+                            alt: "Screen Printing Example: Spike Out ALS Tees",
+                            data: { 
+                                bs_target: '#galleryCarousel',
+                                bs_slide_to: '3'
+                            } %>
                     </div>
                     <div class="col-xl-3 col-lg-4 col-md-6 col-xs-12 text-center">
-                        <img src="uploads/1/0/9/4/109494009/burlington-red-devils-polos.jpg"
-                            class="img-fluid image-cover image-square img-thumbnail" data-bs-toggle="modal"
-                            data-bs-target="#static-modal"
-                            data-bs-src="uploads/1/0/9/4/109494009/burlington-red-devils-polos_orig.jpg" alt="...">
+                        <%= image_tag "views/static_pages/gallery/burlington-red-devils-polos.jpg", 
+                            class: "image-cover image-square-220 img-thumbnail",
+                            alt: "Embroidery Example: Burlington Red Devils Polos",
+                            data: { 
+                                bs_target: '#galleryCarousel',
+                                bs_slide_to: '4'
+                            } %>
                     </div>
                     <div class="col-xl-3 col-lg-4 col-md-6 col-xs-12 text-center">
-                        <img src="uploads/1/0/9/4/109494009/twill.jpg"
-                            class="img-fluid image-cover image-square img-thumbnail" data-bs-toggle="modal"
-                            data-bs-target="#static-modal"
-                            data-bs-src="uploads/1/0/9/4/109494009/twill_orig.jpg" alt="...">
+                        <%= image_tag "views/static_pages/gallery/twill.jpg", 
+                            class: "image-cover image-square-220 img-thumbnail",
+                            alt: "Tackle Twill Example",
+                            data: { 
+                                bs_target: '#galleryCarousel',
+                                bs_slide_to: '5'
+                            } %>
                     </div>
                     <div class="col-xl-3 col-lg-4 col-md-6 col-xs-12 text-center">
-                        <img src="uploads/1/0/9/4/109494009/nebc.jpg"
-                            class="img-fluid image-cover image-square img-thumbnail" data-bs-toggle="modal"
-                            data-bs-target="#static-modal"
-                            data-bs-src="uploads/1/0/9/4/109494009/nebc_orig.jpg" alt="...">
+                        <%= image_tag "views/static_pages/gallery/nebc.jpg", 
+                            class: "image-cover image-square-220 img-thumbnail",
+                            alt: "Screen Printing Example: NEBC",
+                            data: { 
+                                bs_target: '#galleryCarousel',
+                                bs_slide_to: '6'
+                            } %>
                     </div>
                     <div class="col-xl-3 col-lg-4 col-md-6 col-xs-12 text-center">
-                        <img src="uploads/1/0/9/4/109494009/newmissiontitans.jpg"
-                            class="img-fluid image-cover image-square img-thumbnail" data-bs-toggle="modal"
-                            data-bs-target="#static-modal"
-                            data-bs-src="uploads/1/0/9/4/109494009/newmissiontitans_orig.jpg" alt="...">
+                        <%= image_tag "views/static_pages/gallery/newmissiontitans.jpg", 
+                            class: "image-cover image-square-220 img-thumbnail",
+                            alt: "Screen Printing Example: New Mission Titans",
+                            data: { 
+                                bs_target: '#galleryCarousel',
+                                bs_slide_to: '7'
+                            } %>
                     </div>
                     <div class="col-xl-3 col-lg-4 col-md-6 col-xs-12 text-center">
-                        <img src="uploads/1/0/9/4/109494009/sam-malone-zone.jpg"
-                            class="img-fluid image-cover image-square img-thumbnail" data-bs-toggle="modal"
-                            data-bs-target="#static-modal"
-                            data-bs-src="uploads/1/0/9/4/109494009/sam-malone-zone_orig.jpg" alt="...">
+                        <%= image_tag "views/static_pages/gallery/sam-malone-zone.jpg", 
+                            class: "image-cover image-square-220 img-thumbnail",
+                            alt: "Screen Printing Example: Sam Malone Zone",
+                            data: { 
+                                bs_target: '#galleryCarousel',
+                                bs_slide_to: '8'
+                            } %>
                     </div>
                     <div class="col-xl-3 col-lg-4 col-md-6 col-xs-12 text-center">
-                        <img src="uploads/1/0/9/4/109494009/emassstatechampscalripken.jpg"
-                            class="img-fluid image-cover image-square img-thumbnail" data-bs-toggle="modal"
-                            data-bs-target="#static-modal"
-                            data-bs-src="uploads/1/0/9/4/109494009/emassstatechampscalripken_orig.jpg" alt="...">
+                        <%= image_tag "views/static_pages/gallery/emassstatechampscalripken.jpg", 
+                            class: "image-cover image-square-220 img-thumbnail",
+                            alt: "Screen Printing Example: EMass State Champs Cal Ripken",
+                            data: { 
+                                bs_target: '#galleryCarousel',
+                                bs_slide_to: '9'
+                            } %>
                     </div>
                     <div class="col-xl-3 col-lg-4 col-md-6 col-xs-12 text-center">
-                        <img src="uploads/1/0/9/4/109494009/quebechockey.jpg"
-                            class="img-fluid image-cover image-square img-thumbnail" data-bs-toggle="modal"
-                            data-bs-target="#static-modal"
-                            data-bs-src="uploads/1/0/9/4/109494009/quebechockey_orig.jpg" alt="...">
+                        <%= image_tag "views/static_pages/gallery/quebechockey.jpg", 
+                            class: "image-cover image-square-220 img-thumbnail",
+                            alt: "Screen Printing Example: Quebec Hockey",
+                            data: { 
+                                bs_target: '#galleryCarousel',
+                                bs_slide_to: '10'
+                            } %>
                     </div>
                     <div class="col-xl-3 col-lg-4 col-md-6 col-xs-12 text-center">
-                        <img src="uploads/1/0/9/4/109494009/bedfordhscinderella.jpg"
-                            class="img-fluid image-cover image-square img-thumbnail" data-bs-toggle="modal"
-                            data-bs-target="#static-modal"
-                            data-bs-src="uploads/1/0/9/4/109494009/bedfordhscinderella_orig.jpg" alt="...">
+                        <%= image_tag "views/static_pages/gallery/bedfordhscinderella.jpg", 
+                            class: "image-cover image-square-220 img-thumbnail",
+                            alt: "Screen Printing Example: Bedford High School Cinderella",
+                            data: { 
+                                bs_target: '#galleryCarousel',
+                                bs_slide_to: '11'
+                            } %>
                     </div>
                     <div class="col-xl-3 col-lg-4 col-md-6 col-xs-12 text-center">
-                        <img src="uploads/1/0/9/4/109494009/safefromstorm.jpg"
-                            class="img-fluid image-cover image-square img-thumbnail" data-bs-toggle="modal"
-                            data-bs-target="#static-modal"
-                            data-bs-src="uploads/1/0/9/4/109494009/safefromstorm_orig.jpg" alt="...">
+                        <%= image_tag "views/static_pages/gallery/safefromstorm.jpg", 
+                            class: "image-cover image-square-220 img-thumbnail",
+                            alt: "Screen Printing Example: Safe From Storm",
+                            data: { 
+                                bs_target: '#galleryCarousel',
+                                bs_slide_to: '12'
+                            } %>
                     </div>
                     <div class="col-xl-3 col-lg-4 col-md-6 col-xs-12 text-center">
-                        <img src="uploads/1/0/9/4/109494009/watertownfirebreastcancer.jpg"
-                            class="img-fluid image-cover image-square img-thumbnail" data-bs-toggle="modal"
-                            data-bs-target="#static-modal"
-                            data-bs-src="uploads/1/0/9/4/109494009/watertownfirebreastcancer_orig.jpg" alt="...">
+                        <%= image_tag "views/static_pages/gallery/watertownfirebreastcancer.jpg", 
+                            class: "image-cover image-square-220 img-thumbnail",
+                            alt: "Screen Printing Example: Watertown Fire Breast Cancer",
+                            data: { 
+                                bs_target: '#galleryCarousel',
+                                bs_slide_to: '13'
+                            } %>
                     </div>
                     <div class="col-xl-3 col-lg-4 col-md-6 col-xs-12 text-center">
-                        <img src="uploads/1/0/9/4/109494009/newtonwellesleyfootballturkey.jpg"
-                            class="img-fluid image-cover image-square img-thumbnail" data-bs-toggle="modal"
-                            data-bs-target="#static-modal"
-                            data-bs-src="uploads/1/0/9/4/109494009/newtonwellesleyfootballturkey_orig.jpg" alt="...">
+                        <%= image_tag "views/static_pages/gallery/newtonwellesleyfootballturkey.jpg", 
+                            class: "image-cover image-square-220 img-thumbnail",
+                            alt: "Screen Printing Example: Newton Wellesley Football Turkey",
+                            data: { 
+                                bs_target: '#galleryCarousel',
+                                bs_slide_to: '14'
+                            } %>
                     </div>
                     <div class="col-xl-3 col-lg-4 col-md-6 col-xs-12 text-center">
-                        <img src="uploads/1/0/9/4/109494009/snowden-basketball-backpacks.jpg"
-                            class="img-fluid image-cover image-square img-thumbnail" data-bs-toggle="modal"
-                            data-bs-target="#static-modal"
-                            data-bs-src="uploads/1/0/9/4/109494009/snowden-basketball-backpacks_orig.jpg" alt="...">
+                        <%= image_tag "views/static_pages/gallery/snowden-basketball-backpacks.jpg", 
+                            class: "image-cover image-square-220 img-thumbnail",
+                            alt: "Embroidery Example: Snowden Basketball Backpacks",
+                            data: { 
+                                bs_target: '#galleryCarousel',
+                                bs_slide_to: '15'
+                            } %>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+</div>
+
+<div class="modal fade" id="galleryModal" tabindex="-1" aria-labelledby="galleryModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-larger-dialog">
+    <div class="modal-content" data-bs-dismiss="modal" aria-label="Click anywhere to close">
+      <div class="modal-body">
+
+        <div id="galleryCarousel" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <%= image_tag "views/static_pages/gallery/emb-stsebsfootball_orig.jpg", class: "img-fluid", alt: "Embroidery Example: Saint Sebastian's Football" %>
+                </div>
+                <div class="carousel-item">
+                    <%= image_tag "views/static_pages/gallery/emb-wellesleyraiders_orig.jpg", class: "img-fluid", alt: "Embroidery Example: Wellesley Raiders" %>
+                </div>
+                <div class="carousel-item">
+                    <%= image_tag "views/static_pages/gallery/ne-eagles-hockey_orig.jpg", class: "img-fluid", alt: "Embroidery Example: New England Eagles Hockey Caps" %>
+                </div>
+                <div class="carousel-item">
+                    <%= image_tag "views/static_pages/gallery/spike-out-als_orig.jpg", class: "img-fluid", alt: "Screen Printing Example: Spike Out ALS Tees" %>
+                </div>
+                <div class="carousel-item">
+                    <%= image_tag "views/static_pages/gallery/burlington-red-devils-polos_orig.jpg", class: "img-fluid", alt: "Embroidery Example: Burlington Red Devils Polos" %>
+                </div>
+                <div class="carousel-item">
+                    <%= image_tag "views/static_pages/gallery/twill_orig.jpg", class: "img-fluid", alt: "Tackle Twill Example" %>
+                </div>
+                <div class="carousel-item">
+                    <%= image_tag "views/static_pages/gallery/nebc_orig.jpg", class: "img-fluid", alt: "Screen Printing Example: NEBC" %>
+                </div>
+                <div class="carousel-item">
+                    <%= image_tag "views/static_pages/gallery/newmissiontitans_orig.jpg", class: "img-fluid", alt: "Screen Printing Example: New Mission Titans" %>
+                </div>
+                <div class="carousel-item">
+                    <%= image_tag "views/static_pages/gallery/sam-malone-zone_orig.jpg", class: "img-fluid", alt: "Screen Printing Example: Sam Malone Zone" %>
+                </div>
+                <div class="carousel-item">
+                    <%= image_tag "views/static_pages/gallery/emassstatechampscalripken_orig.jpg", class: "img-fluid", alt: "Screen Printing Example: EMass State Champs Cal Ripken" %>
+                </div>
+                <div class="carousel-item">
+                    <%= image_tag "views/static_pages/gallery/quebechockey_orig.jpg", class: "img-fluid", alt: "Screen Printing Example: Quebec Hockey" %>
+                </div>
+                <div class="carousel-item">
+                    <%= image_tag "views/static_pages/gallery/bedfordhscinderella_orig.jpg", class: "img-fluid", alt: "Screen Printing Example: Bedford High School Cinderella" %>
+                </div>
+                <div class="carousel-item">
+                    <%= image_tag "views/static_pages/gallery/safefromstorm_orig.jpg", class: "img-fluid", alt: "Screen Printing Example: Safe From Storm" %>
+                </div>
+                <div class="carousel-item">
+                    <%= image_tag "views/static_pages/gallery/watertownfirebreastcancer_orig.jpg", class: "img-fluid", alt: "Screen Printing Example: Watertown Fire Breast Cancer" %>
+                </div>
+                <div class="carousel-item">
+                    <%= image_tag "views/static_pages/gallery/newtonwellesleyfootballturkey_orig.jpg", class: "img-fluid", alt: "Screen Printing Example: Newton Wellesley Football Turkey" %>
+                </div>
+                <div class="carousel-item">
+                    <%= image_tag "views/static_pages/gallery/snowden-basketball-backpacks_orig.jpg", class: "img-fluid", alt: "Embroidery Example: Snowden Basketball Backpacks" %>
+                </div>
+            </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
 </div>

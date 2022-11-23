@@ -18,4 +18,22 @@ input {
 
 .bg-dark {
     background-color: $primary-bg-dark !important;
+    h1, h2, h3, h4, h5, h6 {
+        color: $white !important;
+    }
+}
+
+.image-cover {
+    object-fit: cover;
+}
+
+.image-square-220 {
+    width: 220px;
+    height: 220px;
+}
+
+.img-thumbnail {
+    padding: 0;
+    border-width: 0;
+    border-radius: 0.5rem;
 }
