@@ -1,0 +1,301 @@
+body {
+    color: #112233;
+    font-family: Arial, sans-serif;
+    line-height: unset;
+    -webkit-font-smoothing: antialiased;
+}
+
+.hidden {
+    display: none;
+}
+
+.clear-both {
+    clear: both;
+}
+
+#customer_login {
+    color: #FFFFFF;
+    background-color: #1188dd;
+    border-color: #044488;
+    border-style: solid;
+    border-width: 2px;
+    font-weight: 600;
+}
+
+#customer_login:hover {
+    color: #FFFFFF;
+    background-color: #1352a2;
+    border-color: #08325e;
+    border-style: solid;
+    border-width: 2px;
+    font-weight: 600;
+}
+
+.cbButton { color: #522994; /*font-size: 14px; font-family: Arial, sans-serif; font-style: normal;*/ font-weight: 600; /*text-align: center; vertical-align: middle;*/ background-color: #E4F0F8; border-color: #C6B5DE; border-style: solid; border-width: 2px; /*width: auto; height: auto; margin: 0px 3px; padding: 4px 15px; min-width: 100px;*/ }
+.cbButton:hover { color: #FFFFFF !important; /*font-size: 14px; font-family: Arial, sans-serif; font-style: normal;*/ font-weight: 600; /*text-align: center; vertical-align: middle;*/ background-color: #522994 !important; border-color: #9C7BBD !important; border-style: solid; border-width: 2px; /*width: auto; height: auto; margin: 0px 3px; padding: 4px 15px; min-width: 100px; cursor: pointer;*/ -webkit-text-fill-color: #FFFFFF !important; }
+.cbButton-blue { color: #FFFFFF; font-size: 14px; font-family: Arial, sans-serif; font-style: normal; font-weight: 600; text-align: center; vertical-align: middle; background-color: #1188dd; border-color: #044488; border-style: solid; border-width: 2px; width: auto; height: auto; margin: 3px; padding: 4px 15px; min-width: 100px; }
+.cbButton-blue:hover { color: #FFFFFF; font-size: 14px; font-family: Arial, sans-serif; font-style: normal; font-weight: 600; text-align: center; vertical-align: middle; background-color: #1352a2; border-color: #08325e; border-style: solid; border-width: 2px; width: auto; height: auto; margin: 3px; padding: 4px 15px; min-width: 100px; cursor: pointer; }
+
+div.paragraph ul, div.paragraph ol { padding-left: 3em !important; margin: 5px 0 !important; }
+div.paragraph li { padding-left: 5px !important; margin: 3px 0 0 !important; }
+div.paragraph ul, div.paragraph ul li { list-style: disc outside !important; }
+div.paragraph ol, div.paragraph ol li { list-style: decimal outside !important; }
+
+.btn {
+    padding: .375rem .5rem;
+    line-height: .75;
+}
+
+/* These .linkButton classes are for <a> elements */
+.linkButton {
+    color: #522994 !important;
+    text-decoration: none !important;
+    font-size: 14px !important;
+    font-family: Arial, sans-serif !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    text-align: center !important;
+    vertical-align: middle !important;
+    background-color: #E4F0F8 !important;
+    border-color: #C6B5DE !important; 
+    border-style: solid !important;
+    border-width: 2px !important;
+    width: auto !important;
+    height: auto !important;
+    margin: 0px 3px !important;
+    padding: 4px 15px !important;
+    min-width: 100px !important;
+    display: inline-block;
+}
+
+.linkButton:hover {
+    color: white !important;
+    text-decoration: none !important;
+    font-size: 14px !important;
+    font-family: Arial, sans-serif !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    text-align: center !important;
+    vertical-align: middle !important;
+    background-color: #522994 !important;
+    border-color: #9C7BBD !important;
+    border-style: solid !important;
+    border-width: 2px !important;
+    width: auto !important;
+    height: auto !important;
+    margin: 0px 3px !important;
+    padding: 4px 15px !important;
+    min-width: 100px !important;
+    display: inline-block;
+}
+
+.float-right {
+    float: right;
+}
+
+.float-left {
+    float: left;
+}
+
+.navbar-brand {
+    font-family: "Montserrat" !important;
+    font-weight: 700 !important;
+    letter-spacing: 0.08rem;
+    overflow: hidden;
+}
+
+.bg-dark {
+    background-color: #112233 !important;
+    color: #FFF;
+  }
+
+.bg-light {
+    background-color: #FFF !important;
+    color: #112233 !important;
+}
+
+h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
+    font-family: "Montserrat" !important;
+    letter-spacing: 0.03rem;
+    font-weight: bold;
+}
+
+h1, .h1 {
+    font-size: 22px;
+}
+
+h2, .h2 {
+    font-size: 28px !important;
+    font-weight: 300 !important;
+    word-wrap: break-word;
+    margin-top: 20px !important;
+}
+
+h3, .h3 {
+    font-size: 1.17rem;
+}
+
+h4, .h4 {
+    font-size: 1rem;
+}
+
+h5, .h5 {
+    font-size: 0.83rem;
+}
+
+h6, .h6 {
+    font-size: 0.67rem;
+}
+
+hr {
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+}
+
+p {
+    font-family: "Montserrat" !important;
+    letter-spacing: 0.02rem;
+    /* The following are from our Weebly website, and I'm not sure we need them. TBD. */
+    font-size: 16px !important;
+    line-height: 1.5 !important;
+    color: #818181 !important;
+}
+
+.container-padded {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.container-page-layout {
+    padding-bottom: 60px;
+}
+
+#footer_3TP {
+    border-top: 1px solid rgba(0,0,0,0.5);
+}
+
+#navLinks {
+    margin: 0;
+}
+
+.email_links a {
+    text-decoration: none;
+    color: #818181;
+}
+
+.email_links a:hover {
+    text-decoration: underline;
+    color: #818181;
+}
+
+.image-cover {
+    object-fit: cover;
+}
+
+.image-square {
+    width: 220px;
+    height: 220px;
+}
+
+.img-thumbnail {
+    padding: 0;
+    border-width: 0;
+    border-radius: 0.5rem;
+}
+
+#cb-modal-dialog.modal-larger-dialog .modal-content, 
+.modal-larger-dialog {
+    max-width: 750px;
+}
+
+#cb-modal-dialog.modal-datapage-container .modal-content, 
+.modal-datapage-container {
+    max-width: 100%;
+    padding: 0 20px;
+}
+
+#loading-mask {
+    position: fixed;
+    z-index: 2001;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(200,200,200,0.8);
+  }
+
+  /* The following two styles have been forked from https://codepen.io/sakamies/pen/yzYypW for building a spinner function*/
+
+  /* Make sure nothing inside buttons can send click events so we can catch button clicks with delegated events. */
+  button * {
+    pointer-events: none;
+  }
+  
+  /* Just a really naive css example to swap the button contents with the spinner. Bring your own spinner & styles. */
+  .loading {
+    opacity: .5;
+  }
+
+  .modal-content {
+      width: unset;
+  }
+
+  #color-cards .card {
+    color: white;
+    height: 60px;
+    width: 130px;
+    border-radius: 3px;
+    margin: 10px 10px 0 0;
+    position: relative;
+    font-size: 12px;
+    border: 1px solid #ddd;
+    float: left;
+}
+
+#color-cards .card-body {
+    display: inline-block;
+    position: absolute;
+    background: rgba(255,255,255,0.9);
+    color: #333;
+    text-align: center;
+    padding: 1px 0 1px;
+    left: 3px;
+    right: 3px;
+    bottom: 3px;
+    border-radius: 2px;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.cbHTMLBlockContainer {
+    text-align: left;
+    vertical-align: top;
+    padding: 3px 7px 6px;
+}
+
+.cbFormData {
+    color: #222222;
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+input[type="radio"] {
+    margin: 3px 3px 0px 5px !important;
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+
+.box-shadow {
+    padding: 10px 30px 30px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

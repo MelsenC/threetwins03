@@ -1,5 +1,13 @@
 @import 'bootstrap/scss/bootstrap';
 @import 'bootstrap-icons/font/bootstrap-icons';
 
-@import 'variables.scss';
-@import 'custom.scss';
+@import 'fonts/Montserrat';
+@import 'application/variables';
+//@import "application/mixins/**/*";
+
+//@import "application/base/**/*";
+//@import "application/components/**/*";
+//@import "application/views/**/*";
+
+@import 'custom';
+@import 'custom005';
