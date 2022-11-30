@@ -39,7 +39,7 @@
 /.vscode/settings.json
 
 # Ignore yml credentials
-config/credentials.yml.enc
+/config/credentials.yml.enc
 
 # Ignore .DS_Store files from Mac computers
-app/assets/images/*/*/.DS_Store
+.DS_Store
