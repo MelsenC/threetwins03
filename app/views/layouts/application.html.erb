@@ -16,6 +16,8 @@
   <body>
     <%= render partial: "layouts/shared/main_nav" %>
 
+    <p class="notice"><%= notice %></p> 
+    <p class="alert"><%= alert %></p>
     <%= content_for?(:content) ? yield(:content) : yield %>
 
     <%= render partial: "layouts/shared/footer" %>
