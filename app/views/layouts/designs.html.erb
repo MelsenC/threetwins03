@@ -1,9 +1,6 @@
 <% content_for :content do %>
   <% content_for :subtitle do %>Designs<% end %>
   <%= render partial: "layouts/shared/container_lg" %>
-  <script>
-    document.getElementById('nav_manage_orders').classList.add('active');
-  </script>
 <% end %>
 
-<%= render template: "layouts/application" %>
+<%= render template: "layouts/manage_orders" %>

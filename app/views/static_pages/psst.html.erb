@@ -1,4 +1,9 @@
 <% content_for :subtitle do %>SanMar PSST Program<% end %>
+<% content_for :active_navlink_script do %>
+    <script>
+        document.getElementById('nav_psst').classList.add('active');
+    </script>
+<% end %>
 
 <div class="container py-5">
     <div class="row gx-5 gy-5">
@@ -139,7 +144,3 @@
         </div>
     </div>
 </div>
-
-<script>
-    document.getElementById('nav_psst').classList.add('active');
-</script>

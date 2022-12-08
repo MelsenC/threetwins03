@@ -1,4 +1,9 @@
 <% content_for :subtitle do %>Home<% end %>
+<% content_for :active_navlink_script do %>
+    <script>
+        document.getElementById('nav_home').classList.add('active');
+    </script>
+<% end %>
 
 <div class="container-fluid py-5 bg-dark">
     <div class="container">
@@ -114,7 +119,3 @@
         </div>
     </div>
 </div>
-
-<script>
-    document.getElementById('nav_home').classList.add('active');
-</script>
