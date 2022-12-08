@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'manage_orders/index'
   devise_for :users
   root 'static_pages#home'
 
