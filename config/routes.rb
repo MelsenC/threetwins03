@@ -1,5 +1,4 @@
 Rails.application.routes.draw do
-  get 'manage_orders/index'
   devise_for :users
   root 'static_pages#home'
 
@@ -7,7 +6,8 @@ Rails.application.routes.draw do
   get '/services', to: 'static_pages#services'
   get '/gallery', to: 'static_pages#gallery'
   get '/psst', to: 'static_pages#psst'
-  get '/manage_orders', to: 'static_pages#manage_orders'
+
+  get '/manage_orders', to: 'manage_orders#index'
   
   resources :customers do
     resources :designs
