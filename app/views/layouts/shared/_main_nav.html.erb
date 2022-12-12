@@ -8,19 +8,19 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ms-5 me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <%= link_to "Home", home_path, id: "nav_home", class: "nav-link" %>
+          <%= link_to "Home", home_path, id: "nav_home", class: "nav-link#{yield :nav_home_active}" %>
         </li>
         <li class="nav-item">
-          <%= link_to "Services", services_path, id: "nav_services", class: "nav-link" %>
+          <%= link_to "Services", services_path, id: "nav_services", class: "nav-link#{yield :nav_services_active}" %>
         </li>
         <li class="nav-item">
-          <%= link_to "Gallery", gallery_path, id: "nav_gallery", class: "nav-link" %>
+          <%= link_to "Gallery", gallery_path, id: "nav_gallery", class: "nav-link#{yield :nav_gallery_active}" %>
         </li>
         <li class="nav-item">
-          <%= link_to "SanMar PSST Program", psst_path, id: "nav_psst", class: "nav-link" %>
+          <%= link_to "SanMar PSST Program", psst_path, id: "nav_psst", class: "nav-link#{yield :nav_psst_active}" %>
         </li>
         <li class="nav-item">
-          <%= link_to "Manage Orders", manage_orders_path, id: "nav_manage_orders", class: "nav-link" %>
+          <%= link_to "Manage Orders", manage_orders_path, id: "nav_manage_orders", class: "nav-link#{yield :nav_manage_orders_active}" %>
         </li>
         <li class="nav-item">
           <% if user_signed_in? %>
