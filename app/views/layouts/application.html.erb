@@ -13,7 +13,7 @@
     <%= javascript_include_tag "application", "data-turbo-track": "reload", defer: true %>
   </head>
 
-  <body>
+  <body class="<%= yield(:bg_navy) %>">
     <%= render partial: "layouts/shared/main_nav" %>
 
     <% if notice.present? %>

@@ -1,4 +1,4 @@
-<footer id="footer_3TP" class="bg-light no-print mt-5">
+<footer id="footer_3TP" class="bg-<%= content_for?(:bg_dark) ? yield(:bg_dark) : "light" %> no-print mt-5">
   <div class="container py-5">
       <div class="row">
           <div style="height: 40px;"></div>
