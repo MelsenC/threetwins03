@@ -22,4 +22,9 @@ RSpec.feature "User sees active class on nav links" do
     visit manage_orders_path
     expect(page).to have_css("a#nav_manage_orders", :class => "nav-link active")
   end
+  scenario "when the user is on the Customers page, the Manage Orders nav link is active" do
+    sign_in
+    visit customers_path
+    expect(page).to have_css("a#nav_manage_orders", :class => "nav-link active")
+  end
 end
