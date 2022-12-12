@@ -1,6 +1,6 @@
 require "rails_helper"
 
-RSpec.feature "User visits a static page" do
+RSpec.feature "User sees active class on nav links" do
   scenario "when the user is on the home page, the nav link is active" do
     visit home_path
     find('#navbarSupportedContent').click_link('Home')
