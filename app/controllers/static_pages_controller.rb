@@ -10,7 +10,4 @@ class StaticPagesController < ApplicationController
 
   def psst
   end
-
-  def manage_orders
-  end
 end
