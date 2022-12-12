@@ -7,7 +7,7 @@ Rails.application.routes.draw do
   get '/gallery', to: 'static_pages#gallery'
   get '/psst', to: 'static_pages#psst'
 
-  get '/manage_orders', to: 'manage_orders#index'
+  resources :manage_orders, only: [:index]
   
   resources :customers do
     resources :designs
